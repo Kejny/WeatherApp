@@ -29,13 +29,13 @@ const weatherInfo = (city) => {
 
     if (convertTemp(city.main.temp) <= 10) {
         background.style.backgroundColor="#429bf5"
-        bgImg.style.backgroundImage="url(../images/cloudy.jpg)"
+        bgImg.style.backgroundImage="url(./images/cloudy.jpg)"
     } else if (convertTemp(city.main.temp) > 20){
         background.style.backgroundColor="#f5bf42"
-        bgImg.style.backgroundImage="url(../images/summer.jpg)"
+        bgImg.style.backgroundImage="url(./images/summer.jpg)"
     } else {
         background.style.backgroundColor="rgb(241, 238, 215)"
-        bgImg.style.backgroundImage="url(../images/background.jpg)"
+        bgImg.style.backgroundImage="url(./images/background.jpg)"
     }
 
     console.log(city)
