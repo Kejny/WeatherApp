@@ -1,0 +1,17 @@
+@media (max-width: 768px) {
+    .wrapper {
+        flex-direction: column-reverse;
+        .rightWrapper {
+            height: 35%;
+            width: 100%;
+            background-size: cover;
+            border-radius: 0 0 15px 15px;
+        }
+    .leftWrapper {
+        gap: 10px;
+        .result {
+            top: 350px;
+        }
+    }
+    }
+}

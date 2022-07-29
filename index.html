@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="icon" href="./images/cloudy.svg">
+    <title>Weather App</title>
+</head>
+<body>
+    
+    <div class="wrapper" id="Wrapper">
+        <div class="leftWrapper">
+                <div class="header">
+                    <h1>Aplikacja Pogodowa</h1>
+                    <p>Prosze wpisac nazwe miasta</p>
+                </div>
+                <div class="data">
+                    <input type="text" id="SearchField" placeholder="Podaj miasto">
+                    <button id="SearchBtn">Szukaj</button>
+                </div>
+                <div class="result ">
+                    <p id="ErrorMsg"></p>
+                    <div id="WeatherBox"></div>
+                </div>
+        </div>
+        <div class="rightWrapper" id="RightWrapper">
+
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
